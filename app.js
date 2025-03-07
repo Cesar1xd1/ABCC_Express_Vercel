@@ -60,6 +60,6 @@ function servidor(peticion, respuesta){
 
 server.on('request', servidor);
 */
-app.listen(port, function(){
+app.listen(port, () =>{
     console.log('Servidor escuchando en puerto 3001');
 });
